@@ -1,0 +1,26 @@
+{
+  "name": "app-photo-v.2.0",
+  "version": "1.0.0",
+  "description": "\"# PhotoApp v 2\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoRoca/app-photo-v.2.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugoRoca/app-photo-v.2.0/issues"
+  },
+  "homepage": "https://github.com/HugoRoca/app-photo-v.2.0#readme",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
