@@ -7,7 +7,9 @@
     "build": "tsc",
     "clean": "rimraf dist",
     "start": "npm run build && node dist/index.js",
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "format": "prettier --write src/**/*.ts",
+    "format:fix": "eslint --ext ts src --fix"
   },
   "repository": {
     "type": "git",
@@ -22,12 +24,18 @@
   "homepage": "https://github.com/HugoRoca/app-photo-v.2.0#readme",
   "devDependencies": {
     "@types/express": "^4.17.6",
+    "@types/morgan": "^1.9.1",
     "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
     "typescript": "^3.9.6"
   },
   "dependencies": {
+    "@types/mongoose": "^5.7.30",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongoose": "^5.9.22",
+    "morgan": "^1.10.0",
     "ts-node": "^8.10.2"
   }
 }
