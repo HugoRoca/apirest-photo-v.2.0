@@ -1,7 +1,5 @@
-# PhotoApp v 2"
+# PhotoApp v 2.0
 
-```
-# npm i typescript -D
-```
+For running this repo exec `npm run dev`
 
-test
+This repo only is API

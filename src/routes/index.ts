@@ -10,12 +10,9 @@ import multer from '../libs/multer'
 
 const router = Router()
 
-router
-  .route('/photo')
-  .get(getPhotos)
-  .put(updatePhoto)
-  .post(multer.single('image'), createPhoto)
+router.route('/photo').get(getPhotos).post(multer.single('image'), createPhoto)
 
-router.route('/photos/:id').get(getPhoto).delete(deletePhoto)
+router.route('/photos/:id').get(getPhoto).delete(deletePhoto).put(updatePhoto)
 
 export default router
+

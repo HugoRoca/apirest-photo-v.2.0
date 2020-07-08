@@ -59,7 +59,11 @@ export async function updatePhoto(
 ): Promise<Response> {
   const { id } = req.params
   const { title, description } = req.body
-  const photo = await Photo.findByIdAndUpdate(id, { title, description })
+  const photo = await Photo.findByIdAndUpdate(
+    id,
+    { title, description },
+    { new: true }
+  )
   return res.json({
     message: 'Successfully updated',
     photo,
