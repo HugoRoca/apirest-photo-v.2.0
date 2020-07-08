@@ -24,7 +24,10 @@
   "homepage": "https://github.com/HugoRoca/app-photo-v.2.0#readme",
   "devDependencies": {
     "@types/express": "^4.17.6",
+    "@types/fs-extra": "^9.0.1",
     "@types/morgan": "^1.9.1",
+    "@types/multer": "^1.4.3",
+    "@types/uuid": "^8.0.0",
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
@@ -34,8 +37,11 @@
     "@types/mongoose": "^5.7.30",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
     "mongoose": "^5.9.22",
     "morgan": "^1.10.0",
-    "ts-node": "^8.10.2"
+    "multer": "^1.4.2",
+    "ts-node": "^8.10.2",
+    "uuid": "^8.2.0"
   }
 }
